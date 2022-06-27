@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_500">#0F0220</color>
+    <color name="ghost">#2F3D3A65</color>
+    <color name="whiteghost">#1DFFFFFF</color>
+    <color name="blackghost">#25000000</color>
+    <color name="blue_200">#2D31FF</color>
+    <color name="blue">#4145FF</color>
+    <color name="green">#00695C</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>\
+    <color name="haki">#C1A373</color>
+    <color name="peach">#EF9E97</color>
+    <color name="mint">#AAF0D1</color>
+    <color name="purple">#4527A0</color>
+    <color name="deepblue">#283593</color>
+</resources>
