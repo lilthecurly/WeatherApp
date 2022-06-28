@@ -398,7 +398,7 @@ public class MainActivity extends AppCompatActivity {
                 String time = simpleDateFormat.format(dateNow);
                 int TIME = Integer.parseInt(time);
 
-                if (TIME >= 0 && TIME <= 3) {
+                if (TIME >= 0 && TIME < 3) {
                     String time1 = "03:00";
                     scroll1_1.setText(time1);
                     scroll1_2.setText("06:00");
@@ -408,7 +408,7 @@ public class MainActivity extends AppCompatActivity {
                     scroll1_6.setText("18:00");
                     scroll1_7.setText("21:00");
                     scroll1_8.setText("00:00");
-                } else if (TIME >= 3 && TIME <= 6) {
+                } else if (TIME >= 3 && TIME < 6) {
                     String time1 = "06:00";
                     scroll1_1.setText(time1);
                     scroll1_2.setText("09:00");
@@ -418,7 +418,7 @@ public class MainActivity extends AppCompatActivity {
                     scroll1_6.setText("21:00");
                     scroll1_7.setText("00:00");
                     scroll1_8.setText("03:00");
-                } else if (TIME >= 6 && TIME <= 9) {
+                } else if (TIME >= 6 && TIME < 9) {
                     String time1 = "09:00";
                     scroll1_1.setText(time1);
                     scroll1_2.setText("12:00");
@@ -428,7 +428,7 @@ public class MainActivity extends AppCompatActivity {
                     scroll1_6.setText("00:00");
                     scroll1_7.setText("03:00");
                     scroll1_8.setText("06:00");
-                } else if (TIME >= 9 && TIME <= 12) {
+                } else if (TIME >= 9 && TIME < 12) {
                     String time1 = "12:00";
                     scroll1_1.setText(time1);
                     scroll1_2.setText("15:00");
@@ -438,7 +438,7 @@ public class MainActivity extends AppCompatActivity {
                     scroll1_6.setText("03:00");
                     scroll1_7.setText("06:00");
                     scroll1_8.setText("09:00");
-                } else if (TIME >= 12 && TIME <= 15) {
+                } else if (TIME >= 12 && TIME < 15) {
                     String time1 = "15:00";
                     scroll1_1.setText(time1);
                     scroll1_2.setText("18:00");
@@ -448,7 +448,7 @@ public class MainActivity extends AppCompatActivity {
                     scroll1_6.setText("06:00");
                     scroll1_7.setText("09:00");
                     scroll1_8.setText("12:00");
-                } else if (TIME >= 15 && TIME <= 18) {
+                } else if (TIME >= 15 && TIME < 18) {
                     String time1 = "18:00";
                     scroll1_1.setText(time1);
                     scroll1_2.setText("21:00");
@@ -458,7 +458,7 @@ public class MainActivity extends AppCompatActivity {
                     scroll1_6.setText("09:00");
                     scroll1_7.setText("12:00");
                     scroll1_8.setText("15:00");
-                } else if (TIME >= 18 && TIME <= 21) {
+                } else if (TIME >= 18 && TIME < 21) {
                     String time1 = "21:00";
                     scroll1_1.setText(time1);
                     scroll1_2.setText("00:00");
